@@ -1,7 +1,7 @@
 # Stove Monitor (mobile app)
 
 StoveMonitor is a Flutter mobile app that can be used on iOS or android phones to automatically check your stove when you leave home using geofencing.
-It is to be used in tandem with the server side implementation https://github.com/sgatuku/StoveMonitor which is an RPI zero with a camera pointed at your stove
+It is to be used in tandem with the server side implementation https://github.com/sgatuku/StoveMonitoServer which is an RPI zero with a camera pointed at your stove
 that takes a photo and uses computer vision to determine if a stove burner is on/off using the knob positions. This mobile app makes HTTPs requests to the server
 whenever the user has left home and notifies them via push notifications if a stove burner has been left on. 
 
@@ -42,7 +42,7 @@ Below are screenshots from both the ios and android app showings its features:
 
 ### 0. Set Up Your Server
 
-Download and run the server side implementation: https://github.com/sgatuku/StoveMonitor
+Download and run the server side implementation: https://github.com/sgatuku/StoveMonitorServer
 Checkout the networking readme for help getting the internet routing setup so that this 
 mobile app can access your server wherever in the world securely. 
 
